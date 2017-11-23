@@ -1,39 +1,116 @@
 <!DOCTYPE html>
   <html>
     <head>
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       <!--Import Google Icon Font-->
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/main.css"/>
       <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      
 
-      <!--Let browser know website is optimized for mobile-->
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      
     </head>
 
     <body>
       <!--Import jQuery before materialize.js-->
-	<nav>
-	<div class="nav-wrapper">
-	<a href="#!" class="brand-logo">Logo</a>
-	<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-	<ul class="right hide-on-med-and-down">
-	<li><a href="#aboutme">About Me</a></li>
-	<li><a href=#portfolio">Portfolio</a></li>
-	<li><a href="#contact">Contact Me</a></li>
-	</ul>
-	<ul class="side-nav" id="mobile-demo">
-	<li><a href="#aboutme">About Me</a></li>
-	<li><a href=#portfolio">Portfolio</a></li>
-	<li><a href="#contact">Contact Me</a></li>
-	</ul>
-	</div>
-	</nav>
-      <div class="container">
-        <!-- Page Content goes here -->
+    
+    <div class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper blue">      
+          <div class="container">
+            <div class="brand-logo">Himanshu Patel</div>
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+            <li><a href="#aboutme">About Me</a></li>
+            <li><a href=#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+            
+
+            </ul>
+            <ul class="side-nav" id="mobile-demo">
+            <li><a href="#aboutme">About Me</a></li>
+            <li><a href=#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav> 
+    </div>
+  	
+      <!-- Page Content goes here -->
+      <div class="parallax-container">
+      
+            <div class="parallax"><img src="3.jpg" height="920"></div>
+       
+      <section id="about">
+        <div class="container">        
+          <div class="row home-inner">
+            <div class="col l12">
+              <!-- <div class="center-align">
+                <h1>Hello, I'm Himanshu Patel</h1>
+              </div> -->
+
+              <!-- <div class="home-inner"> -->
+                <div class="center-align home-content">
+                  <h1 class="home-title">HI! I'm <span>Himanshu Patel</span></h1>
+                  <h2 class="home-subtitle">Computer Science Student</h2>
+                  <a href="#contact" class="hire-me-btn btn waves-effect waves-light btn-large brand-bg white-text regular-text">Hire Me <i class="mdi-content-send left"></i></a>
+                </div>
+              <!-- </div> -->
+
+            </div>
+          </div>          
+        </div>
+      </section>
       </div>
+      <section id="contact"  class="blue">
+        <div class="container contact-sec">
+          <div class="row">
+            <div class="col l4 s12">
+              <!-- <div class="card-panel blue about-me">
+                <span class="white-text">
+                  Hello, There. I'm Computer Science Student from the India.
+                </span>
+              </div> -->
+              <h4>MY Story</h4>
+              <p>Hello, There. I'm Computer Science Student from the India.</p>
+            </div>
+            <div class="col l4 s12">
+              <center><img src="my.jpg" alt="" class="responsive-img" ></center>
+            </div>
+            <div class="col l4 s12">
+              <h4>Personal Information</h4>
+              <table class="bordered">
+                <tbody>
+                  <tr>
+                    <td>Name</td>
+                    <td>Himanshu Patel</td>
+                  </tr>
+                  <tr>
+                    <td>Age</td>
+                    <td>22 Years</td>
+                  </tr>
+                  <tr>
+                    <td>Contact</td>
+                    <td>+91 (972) 439 7402</td>
+                  </tr> 
+                  <tr>
+                    <td>Email</td>
+                    <td>ptlhimanshu827@gmail.com</td>
+                  </tr>                           
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+      
 
       <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script type="text/javascript" src="js/main.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>
-            <script type="text/javascript" src="js/main.js"></script>
+      
     </body>
   </html>
