@@ -29,9 +29,13 @@
 .home-title
 {
 	font-style: black;
-	color: grey;
+	color: skyblue;
 }
 
+.home-content
+{
+	padding-top: 20px;
+}
 ._12 {
     font-size: 1.2em;
 }
