@@ -1,5 +1,36 @@
 @import url(https://fonts.googleapis.com/css?family=Lato);
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
+#person-color .material-icons{
+    color: white;
+}
+#person-color .collapsible-header{
+    background-color: #4a148c;
+    color: white;
+}
+.collapsible, .collapsible-header
+{
+  
+  border: 0;
+}
+#abc div:hover{
+      background-color: #8e24aa;
+}
+.btn{
+  background-color: #4a148c;
+}
+.btn:visited{
+  background-color: #6a1b9a;
+}
+.btn:hover {
+  background-color: #8e24aa;
+}
+.btn:active{
+  background-color: #9c27b0;
+}
+.not-active {
+  pointer-events: none;
+  cursor: default;
+}
 .home-inner
 {
 	/*padding-top: 100px;
