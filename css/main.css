@@ -12,8 +12,9 @@
   
   border: 0;
 }
-#abc div:hover{
-      background-color: #8e24aa;
+.collapsible a{
+    color: white;
+  text-decoration: none;  
 }
 .btn{
   background-color: #4a148c;
