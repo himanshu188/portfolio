@@ -58,12 +58,32 @@
 	padding-bottom: : 50px;
 	margin-bottom: 0!important;
 }
+.skill-sec
+{
+    padding-top: 30px;
+    padding-bottom: : 50px;
+    margin-bottom: 0!important;
+}
+.certi-sec
+{
+    padding-top: 30px;
+    padding-bottom: : 50px;
+    margin-bottom: 0!important;
+}
 .home-title
 {
 	font-style: black;
 	color: skyblue;
+    font-weight: bold;
 }
-
+.home-subtitle
+{
+    padding-bottom: 50px;
+}
+.mystory
+{
+    font-style: italic;
+}
 .home-content
 {
 	padding-top: 20px;

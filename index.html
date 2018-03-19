@@ -16,7 +16,18 @@
 
     <body>
       <!--Import jQuery before materialize.js-->
-    
+    <div class="fixed-action-btn">
+      <a class="btn-floating btn-large red z-depth-4">
+        <i class="large material-icons">mode_edit</i>
+      </a>
+      <ul>
+        <li><a href="mailto:ptlhimanshu827@gmail.com" class="btn-floating blue"><i class="material-icons">email</i></a></li>
+        <!-- <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li> -->
+        <li><a href="tel:91972-439-7402" class="btn-floating green"><i class="material-icons">call</i></a></li>
+        <!-- <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li> -->
+      </ul>
+    </div>
+
     <div class="navbar-fixed">
       <nav>
         <div class="nav-wrapper blue">      
@@ -25,15 +36,15 @@
             <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down">
             <li><a href="#about">About Me</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact Me</a></li>
-            
-
+            <li><a href="#containeract">Portfolio</a></li>
+            <!-- <li><a href="#contact">Contact Me</a></li> -->
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#certi">Certificates / Awards</a></li>
             </ul>
             <ul class="side-nav" id="mobile-demo">
             <li><a href="#aboutme">About Me</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact Me</a></li>
+            <li><a href="#containeract">Portfolio</a></li>
+            <!-- <li><a href="#contact">Contact Me</a></li> -->
             </ul>
           </div>
         </div>
@@ -42,11 +53,11 @@
   	
       <!-- Page Content goes here -->
       <div class="parallax-container">
-        <div class="parallax"><img src="3.jpg" height="820"></div>
+        <div class="parallax"><img src="img/3.jpg" height="820"></div>
         <section id="about">
           <div class="container">        
             <div class="row home-inner">
-              <div class="col l12">
+              <div class="col l12 s12">
                 <!-- <div class="center-align">
                   <h1>Hello, I'm Himanshu Patel</h1>
                 </div> -->
@@ -54,7 +65,7 @@
                 <!-- <div class="home-inner"> -->
                   <div class="center-align home-content">
                     <h1 class="home-title">HI! I'm <span>Himanshu Patel</span></h1>
-                    <h2 class="home-subtitle">Computer Science Student</h2>
+                    <!-- <h2 class="home-subtitle">Computer Science Student</h2> -->
                     <!-- <a href="#contact" class="hire-me-btn btn waves-effect waves-light btn-large brand-bg white-text regular-text">Hire Me <i class="mdi-content-send left"></i></a> -->
                     <a href="#contact" class="hire-me-btn btn waves-effect waves-light btn-large brand-bg white-text regular-text blue"><i class="large material-icons">arrow_downward</i></a>
                     
@@ -66,7 +77,7 @@
           </div>
         </section>
       </div>    
-      <section id="contact"  class="blue">
+      <section id="containeract"  class="blue">
         <div class="container">
           <div class="row  contact-sec">
             <div class="col l4 s12">
@@ -75,18 +86,18 @@
                   Hello, There. I'm Computer Science Student from the India.
                 </span>
               </div> -->
-              <h4>My Story</h4>
-              <p>Hello, There. I'm Computer Science Student from India.</p>
+              <h4><center> My Story</center></h4>
+              <p class="mystory">Hello, There. I'm Computer Science Student from India. I'm studying in Birla Vishwakarma Mahavidyalaya. </p>
               <center>
-              <a target="_blank" href="Resume.pdf" class="waves-effect waves-light btn"><i class="material-icons left">cloud_download</i>Resume</a>
-              </center>              
+              <a target="_blank" href="Resume.pdf" class="z-depth-5 waves-effect waves-light btn"><i class="material-icons left">cloud_download</i>Resume</a>
+              </center><br>             
             </div>
             <div class="col l4 s12">
-              <center><img src="pic.jpg" alt="" class="responsive-img" ></center>
+              <center><img src="img/pic.jpg" alt="" class="responsive-img circle z-depth-4"></center>
             </div>
             <div class="col l4 s12">
               <h4>Personal Information</h4>              
-              <ul class="collapsible" id="person-color">
+              <ul class="collapsible z-depth-4" id="person-color">
                 <li>
                   <div class="collapsible-header waves-effect waves-light">
                     <i class="material-icons">account_circle</i>
@@ -112,7 +123,147 @@
           </div>
         </div>
       </section>
-      
+      <section id="skills" class="grey">
+        <div class="container">        
+          <div class="row skill-sec">
+          <h4><center>Skills</center> </h4> 
+            <div class="col l2 s6">              
+              <a class="modal-trigger" href="#modal1">
+                <div class="card transparent  z-depth-0">
+                  <div class="card-image">
+                    <img class="circle" src="img/python.png">      
+                    <span class="card-title teal-text text-darken-4">Python</span>         
+                  </div>                    
+                </div>
+              </a> 
+              <div id="modal1" class="modal">
+                <div class="modal-content">
+                  <h4>Python</h4>
+                  <p>I have an Advanced level expertise in python. I started learning python when I was in the 1st year of B.Tech. Since then I have been using python for various purposes like Automation script, Raspberry PI as a surveillance system, Machine Learning and Socket Programming.</p>
+                </div>
+                <div class="modal-footer">
+                  <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                </div>
+              </div>                          
+            </div>
+
+            <div class="col l2 s6">              
+              <a class="modal-trigger" href="#modal2">
+                <div class="card transparent  z-depth-0">
+                  <div class="card-image">
+                    <img class="circle" src="img/cpp.png  ">      
+                    <span class="card-title">C++</span>         
+                  </div>                    
+                </div>
+              </a>
+              <div id="modal2" class="modal">
+                <div class="modal-content">
+                  <h4>C++/C</h4>
+                  <p>I started learning C from the 12th standard itself. I have solved various coding problems like DFS, BFS, KNN, Queue and various sorting like Quick sort, Merge sort and Bubble sort.</p>
+                </div>
+                <div class="modal-footer">
+                  <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                </div>
+              </div>              
+            </div>
+            <div class="col l2 s6">              
+              <a class="modal-trigger" href="#modal3">
+                <div class="card transparent  z-depth-0">
+                  <div class="card-image">
+                    <img class="circle" src="img/java.png">      
+                    <span class="card-title teal-text text-darken-4">Java</span>         
+                  </div>                    
+                </div>
+              </a>
+              <div id="modal3" class="modal">
+                <div class="modal-content">
+                  <h4>JAVA</h4>
+                  <p>I encountered Java recently, which was 2nd object-oriented programming language after C++. I have a good amount of expertise in inheritance, Java Spring and JSP. Moreover, I made an web application for Online Mobile Recharge portal.</p>
+                </div>
+                <div class="modal-footer">
+                  <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                </div>
+              </div>              
+            </div>
+            <div class="col l2 s6">              
+              <a class="modal-trigger" href="#modal4">
+                <div class="card transparent  z-depth-0">
+                  <div class="card-image">
+                    <img class="circle" src="img/mysql.png">      
+                    <span class="card-title teal-text text-darken-4">MySQL</span>         
+                  </div>                    
+                </div>
+              </a>
+              <div id="modal4" class="modal">
+                <div class="modal-content">
+                  <h4>MySQL / Database</h4>
+                  <p>I have a vast experience in terms of database. I have skilled in MySQL as well as Oracle Database. Moreover I got an opportunity to learn Postgre SQL as well, one of the open source database management system.</p>
+                </div>
+                <div class="modal-footer">
+                  <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">close</a>
+                </div>
+              </div>              
+            </div>
+            <div class="col l2 s6">              
+              <a class="modal-trigger" href="#modal5">
+                <div class="card transparent  z-depth-0">
+                  <div class="card-image">
+                    <img class="circle" src="img/bigdata.png">      
+                    <span class="card-title teal-text text-darken-4">BigData</span>         
+                  </div>                  
+                </div>
+              </a>
+              <div id="modal5" class="modal">
+                <div class="modal-content">
+                  <h4>Big Data</h4>
+                  <p>I got a hand on experience on Big data recently. I did an experience on Hadoop in Ubuntu environment. I made a cluster of 2 laptops and implement HDFS System. Moreover, I have experience with Cloudera system, one of the best Hadoop pre-build operating system.</p>
+                </div>
+                <div class="modal-footer">
+                  <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                </div>
+              </div>              
+            </div>
+            <div class="col l2 s6">              
+              <a class="modal-trigger" href="#modal6">
+                <div class="card transparent  z-depth-0">
+                  <div class="card-image">
+                    <img class="" src="img/web.png">      
+                    <span class="card-title teal-text text-darken-4">Web Development</span>         
+                  </div>
+                </div>
+              </a>
+              <div id="modal6" class="modal">
+                <div class="modal-content">
+                  <h4>Web Development</h4>
+                  <p>I started Web developing since long time ago. I started with HTML and then expand my expertise with CSS and Javascript. Now I'm working with Various CSS Framework like Materialize, Bootstrap.</p>
+                </div>
+                <div class="modal-footer">
+                  <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">close</a>
+                </div>
+              </div>              
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="certi" class="blue">
+        <div class="container">
+          <div class="row certi-sec">
+            <h4><center>Certificates / Awards</center></h4>
+            <div class="col l3">
+                <img class="z-depth-5 responsive-img materialboxed" data-caption="I learnt basic concepts of Big data including Apache Hadoop and MapReduce algorithm with HDFS System." src="img/bigdata.jpg">                
+            </div>
+            <div class="col l3">
+                <img class="z-depth-5 responsive-img materialboxed" data-caption="This was the integration of Oracle Database and Cloud computing. I learnt Oracle 12c with backups and Load Balancing." src="img/oracle.jpg">
+            </div>
+            <div class="col l3">
+                <img class="z-depth-5 responsive-img materialboxed" data-caption="This was the International Experience Program which was engrossed with a lot of practical learning of Android and Paper Presentation. " src="img/Scan10003.JPG">
+            </div>
+            <div class="col l3">
+                <img class="z-depth-5 responsive-img materialboxed" data-caption="An excellent AWS basic course which covers S3, RDS, EC2, SNS, CloudFront and Glacier." src="img/cloud.jpg">
+            </div>
+          </div><br>          
+        </div>
+      </section>
 
         
       <footer class="page-footer grey">
