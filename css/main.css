@@ -7,6 +7,10 @@
     background-color: #4a148c;
     color: white;
 }
+.tracker
+{
+    display: none;
+}
 .collapsible, .collapsible-header
 {
   
