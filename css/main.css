@@ -80,6 +80,11 @@
 	color: skyblue;
     font-weight: bold;
 }
+.subtitle
+{
+    color: white;
+    font-style: italic;
+}
 .home-subtitle
 {
     padding-bottom: 50px;
