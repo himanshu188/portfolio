@@ -7,6 +7,10 @@
     background-color: #4a148c;
     color: white;
 }
+.parallax-container
+{
+    position: static;
+}
 .tracker
 {
     display: none;
