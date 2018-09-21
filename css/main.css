@@ -9,7 +9,8 @@
 }
 .parallax-container
 {
-    position: static;
+    /*position: static;*/
+    /*height: 500px;*/
 }
 .tracker
 {
@@ -50,6 +51,8 @@
 .parallax img
 {
 	/*width: 100%;*/
+    /*max-width: 100%;*/
+    min-height: 100px;
 }
 .row
 {
