@@ -66,19 +66,19 @@
 .contact-sec
 {
 	padding-top: 50px;
-	padding-bottom: : 50px;
+	padding-bottom: 50px;
 	margin-bottom: 0!important;
 }
 .skill-sec
 {
     padding-top: 30px;
-    padding-bottom: : 50px;
+    padding-bottom: 50px;
     margin-bottom: 0!important;
 }
 .certi-sec
 {
     padding-top: 30px;
-    padding-bottom: : 50px;
+    padding-bottom: 50px;
     margin-bottom: 0!important;
 }
 .home-title
@@ -99,6 +99,26 @@
 .mystory
 {
     font-style: italic;
+    line-height: 1.8;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+/* Additional styling for the story section */
+.card-panel .mystory {
+    font-size: 1.1em;
+    padding: 10px 0;
+    line-height: 1.9;
+}
+
+.card-panel .divider {
+    opacity: 0.6;
+}
+
+/* Enhanced styling for the blue lighten-5 card-panel */
+.card-panel.blue.lighten-5 {
+    border-left: 4px solid #1976d2;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 .home-content
 {
